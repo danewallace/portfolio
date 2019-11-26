@@ -1,40 +1,65 @@
+
+body {
+  background-color: #A0BEC0;
+}
+
 h1 {
   color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
+
+h2 {
+  color: #3E3C2F;
+}
+
+h3 {
+  color: #3E3C2F;
+}
+
 p {
   color: white;
+  font-size: 16px;
+	line-height: 1.5;
 }
-body {
-  background-color: red;
+
+.sub-text {
+  color: gray;
+  font-size: 14px;
+  line-height: 1.5;
 }
-.purple-text {
-   color: purple;
+
+.footer-text {
+  color: white;
+  font-size: 12px;
+  line-height: 1;
 }
-.important {
+
+.navigation-link {
+  color: #E34C2F;
   font-weight:bold;
 }
-#lead-paragraph {
-  color: purple; font-weight: bold;
-}
+
 .important:hover {
   background-color:pink;
 }
+
 p.important {
   width: 75%;
 }
 
-a[href="https://www.imagecomics.com/"] {
-  background-color: orange;
-  padding: 1rem;
+
+a[href="https://www.linkedin.com/in/wallacedane/"] {
+  color: #49302B;
 }
-a[href="http://storm.wnba.com/"] {
-  background-color: blue;
+
+a[href="https://github.com/danewallace"] {
+  color: #49302B;
 }
-h1 {
-  color: black;
-  border-style: solid;
-  border-width: 1 px;
-  border-color: black;
+
+a[href="https://www.instagram.com/moonandmiumiu/"] {
+  color: #49302B;
 }
 
 img {
