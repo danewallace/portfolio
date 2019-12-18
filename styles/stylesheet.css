@@ -24,6 +24,15 @@ p {
 	line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+  color: #49302B;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .sub-text {
   color: gray;
   font-size: 14px;
@@ -50,21 +59,32 @@ p.important {
 }
 
 
-a[href="https://www.linkedin.com/in/wallacedane/"] {
-  color: #49302B;
-}
-
-a[href="https://github.com/danewallace"] {
-  color: #49302B;
-}
-
-a[href="https://www.instagram.com/moonandmiumiu/"] {
-  color: #49302B;
-}
-
-img {
-  border-style: dashed;
+.lessons img {
+  height: 256px;
+  width: 256px;
+  border-style: solid;
   border-color: black;
   border-width: 3px;
-  width:25%;
+  transition-duration: .5s;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  overflow: scroll;
+  filter: grayscale(100%);
+}
+
+.lessons img:hover {
+  width: 256px;
+  height: 256px;
+  filter: grayscale(0%);
+}
+
+
+.fa-github {
+  color: gray;
+  font-size: 48px;
+  transition: all 1s ease;
+}
+
+.fa-github:hover {
+  color: purple;
 }
