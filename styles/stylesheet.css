@@ -88,3 +88,35 @@ p.important {
 .fa-github:hover {
   color: purple;
 }
+
+
+/* styling for form */
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input {
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+.left{
+  float:left;
+}
+
+.clear{
+  clear:both;
+}
+
+input[type="submit"]{
+  width: 25%;
+  background-color: #E34C2F;
+}
