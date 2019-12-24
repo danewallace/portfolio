@@ -9,35 +9,37 @@
   <body>
     <a href="main-content" class="hidden">Skip to main content</a>
     <header>
+      <nav>
+        <ul>
+          <li><a class="navigation-link" href="index.html">Portfolio</a></li>
+          <li><a class="navigation-link" href="about.html">About</a></li>
+          <li><a class="navigation-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
       <h1>Portfolio</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a class="navigation-link" href="index.html">Portfolio</a></li>
-        <li><a class="navigation-link" href="about.html">About</a></li>
-        <li><a class="navigation-link" href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
     <section id="main-content">
       <header>
         <h2>Lessons</h2>
       </header>
-      <article class="lessons">
-        <header>
-          <h3>Lesson 1</h3>
-          <p>Introduction to Git and HTML</p>
-        </header>
-        <img src="./images/lesson-1-icon.png" alt="Semantic elements icon">
-        <p><a href="https://github.com/danewallace/semantic-elements"><i class="fab fa-github"></i></a></p>
-      </article>
-      <article class="lessons">
-        <header>
-          <h3>Lesson 2</h3>
-          <p>More HTML</p>
-        </header>
-        <img src="./images/lesson-2-icon.png" alt="Portfolio icon">
-        <p><a href="https://github.com/danewallace/portfolio"><i class="fab fa-github"></i></a></p>
-      </article>
+      <section class="lesson-container">
+        <article class="lessons">
+          <header>
+            <h3>Lesson 1</h3>
+            <p>Introduction to Git and HTML</p>
+          </header>
+          <img src="./images/lesson-1-icon.png" alt="Photo of HTML brackets">
+          <p><a href="https://github.com/danewallace/semantic-elements"><i class="fab fa-github"></i></a></p>
+        </article>
+        <article class="lessons">
+          <header>
+            <h3>Lesson 2</h3>
+            <p>More HTML</p>
+          </header>
+          <img src="./images/lesson-2-icon.png" alt="Photo of a brief case">
+          <p><a href="https://github.com/danewallace/portfolio"><i class="fab fa-github"></i></a></p>
+        </article>
+      </section>
     </section>
     <footer>
       <p class="footer-text">This site is a work in progress.</p>

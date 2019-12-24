@@ -142,3 +142,26 @@ input[type="submit"]{
   width: 25%;
   background-color: #E34C2F;
 }
+
+.lesson-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson-container > article {
+  box-sizing: border-box;
+  padding: 10px;
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+  align-items: flex-start;
+}
